@@ -1,0 +1,17 @@
+using System;
+namespace лаб._работа_1
+{
+    public class Blue2
+    {
+        public static bool Task2(double d)
+        {
+            bool ans = false;
+            //code here
+            double frac = Math.Abs(d - Math.Truncate(d));
+            if (frac > 0.0001)
+                ans = true;
+            //end
+            return ans;
+        }
+    }
+}
