@@ -1,0 +1,33 @@
+using System;
+namespace лаб._работа_1
+{
+    public class Blue4
+    {
+        public double Task4(double d, double f, double g)
+        {
+            double answer = 0;
+
+            // code here
+            double absD = Math.Abs(d);
+            double absF = Math.Abs(f);
+            double absG = Math.Abs(g);
+
+            // Сравниваем, какое больше по модулю
+            if (absD >= absF && absD >= absG)
+            {
+                answer = d;
+            }
+            else if (absF >= absD && absF >= absG)
+            {
+                answer = f;
+            }
+            else
+            {
+                answer = g;
+            }
+            // end
+
+            return answer;
+        }
+    }
+}
