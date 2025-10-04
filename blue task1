@@ -1,0 +1,21 @@
+using System;
+
+namespace лаб._работа_1
+{
+    public class Blue1
+    {
+        public static bool Task1(int a, int b)
+        {
+            bool ans = false;
+            //code here
+            if (a != 0 && b != 0)
+            {
+                if ((a > 0 && b > 0) || (a < 0 && b > 0))
+                    ans = true;
+            }
+
+            //end
+            return ans;
+        }
+    }
+}
