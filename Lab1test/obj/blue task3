@@ -1,15 +1,1 @@
-namespace лаб._работа_1
-{
-    public class Blue3
-    {
-        public static bool Task3(int a, int b)
-        {
-            //coed here
-            bool ans = false;
-            if (b != 0 && a % b == 0)
-                ans = true;
-            return ans;
-            //end
-        }
-    }
-}
+
